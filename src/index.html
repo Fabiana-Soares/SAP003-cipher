@@ -7,21 +7,29 @@
   </head>
   <body>
     <div id="root">
-      <h1>S.O.S Hugs</h1>
-    </div>
-    <div id="Texto"></div>
-
-    <p>Qual o grau da Urgencia:</p>
-    <p><label><input type="number" name="grau1" id="grau10" min="0" max="10" value="0"/></label</p>
-    <p><legend><b>Cifrar e Descifrar as mensagens<b></legend></p>
-    <p>Digite sua mensagem sem se preocupar, tudo sera cifrado:</p>
-    <p><textarea name="tMsg" id="cMsg" cols="45" rows="15" placeholder="Escreva sua mensagem" ></textarea></p>
+       <h1><em>S.O.S Hugs</em></h1>
+     </div>
     
-                            
-         <p>Digite sua mensagem sem se preocupar, tudo sera descifrado:</p>
-         <p><textarea name="tMsg" id="cMsg" cols="45" rows="15" placeholder="Escreva sua mensagem" ></textarea></p>
+    <form action ="">
+        <p><b>Marque qual e o grau da urgencia da sua mensagem:</b>a</p>
+        <p><input type="radio" name="tGrau" value="1Grau">1-Baixa Urgencia</input>
+            <input type="radio" name="tGrau" value="2Grau">2-Media Urgencia</input>
+            <input type="radio" name="tGrau" value="3Grau">3-Alta Urgencia</input></p>
+
+          <p>Desloque sua letra: <input type="number" id="desloque" ></p> 
+
+        <p>Digite sua mensagem sem se preocupar, tudo sera cifrado:</p>
+        <p>
+          <textarea name="tMsg" id="cMsg" value= "" cols="45" rows="15" placeholder="Escreva sua mensagem"></textarea>
+      
+            
+        <!-- <input type="imagem" src="imagens/sos123.png" alt="Enviar"></input> -->
         
+        <p><b>Clique se voce deseja cifrar ou decifrar sua mensagem:</b></p>
+        <p><input type="button" onclick="ciFrar()" value="Cifrar">
+            <input type="button" onclick="deCifrar()" value="Decifrar"></p>
         
+     </form>      
     
     <script src="cipher.js"></script>
     <script src="index.js"></script>
