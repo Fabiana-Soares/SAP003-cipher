@@ -41,4 +41,8 @@ function decode(offset, mensagem) {
   }
   return escreva;
 }
+function funcaoAlerta()
+{
+alert("Enviado com sucesso e seguranca!");
+}
 
