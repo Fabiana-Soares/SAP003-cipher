@@ -2,38 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher S.O.S Hugs</title>
+    <title>Caesar Cipher S.O.S REFUGIADOS</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-       <h1><em>S.O.S Hugs</em></h1>
+    <imag id= "refugees"
+    src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXp7XPb-G3sWfZ1RrW8figLABG0kUN2zethonBR9jI1Qb-YeTm/>
+
+    <div class="box">
+        <div id="root">
+           <h1><em>S.O.S REFUGIADOS</em></h1>
      </div>
     
     <form action ="">
-        <p><b>Marque qual e o grau da urgencia da sua mensagem:</b>a</p>
-        <p><input type="radio" name="tGrau" value="1Grau">1-Baixa Urgencia</input>
-            <input type="radio" name="tGrau" value="2Grau">2-Media Urgencia</input>
-            <input type="radio" name="tGrau" value="3Grau">3-Alta Urgencia</input></p>
+        <p><b>Marque qual o grau da urgência de sua mensagem:</b></p>
+        <p><input type="radio" name="tGrau" value="1Grau">1-Baixa</input>
+            <input type="radio" name="tGrau" value="2Grau">2-Media</input>
+            <input type="radio" name="tGrau" value="3Grau">3-Alta</input></p>
 
-          <p>Desloque sua letra: <input type="number" id="desloque" ></p> 
+          <p><b>Deslocamento de letra:<input type="number" id="desloque" placeholder= "Digite um numero" /></p> 
 
-        <p>Digite sua mensagem sem se preocupar, tudo sera cifrado:</p>
-        <p>
-          <textarea name="tMsg" id="cMsg" value= "" cols="45" rows="15" placeholder="Exemplo : Temos escutado denúncias horríveis de crianças obrigadas a manter relações sexuais com os traficantes para pagarem a viagem — declarou a porta-voz da Acnur, Melissa Fleming."></textarea>
-      
-            
-        <!-- <input type="imagem" src="imagens/sos123.png" alt="Enviar"></input> -->
-        
+        <p><b>Digite sua mensagem sem se preocupar, tudo será criptografado:</b></p>
+        <p> <div class="inputBox">
+          <textarea name="tMsg" id="cMsg" value= "" cols="48" rows="13" placeholder="Exemplo: Temos escutado denúncias horríveis de crianças obrigadas a manter relações sexuais com os traficantes para pagarem a viagem — declarou a porta-voz da Acnur, Melissa Fleming."></textarea>
+         </div>
+                 
         <p><b>Clique se voce deseja cifrar ou decifrar sua mensagem:</b></p>
         <p><input type="button" id="ciFrar1" value="Cifrar">
             <input type="button" id="deCifrar1" value="Decifrar">
-            <input type="reset"  name="b2" value="Limpar"></p>
-
-            <input type="button" onclick="funcaoAlerta()" value="Enviar"/>
-        
+            <input type="reset"  name="b2" value="Limpar">
+            <input type="button" onclick="funcaoAlerta()" value="Enviar"/></p>
+  
      </form>      
-    
+    </div>>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

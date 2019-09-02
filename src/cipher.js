@@ -43,6 +43,7 @@ function decode(offset, mensagem) {
 }
 function funcaoAlerta()
 {
-alert("Enviado com sucesso e seguranca!");
+alert("Enviado com sucesso e segurança!");
 }
 
+//https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXp7XPb-G3sWfZ1RrW8figLABG0kUN2zethonBR9jI1Qb-YeTm

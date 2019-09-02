@@ -1,12 +1,12 @@
-# S.O.S HUGS em Cifra de César
+# S.O.S REFUGIADOS em Cifra de César
 
 
 # Quem são os principais usuário do produto? 
-Refugiados são todas as pessoas que, em razão aos temores de perseguição devido à sua raça, religião, nacionalidade, associação a determinado grupo social ou opinião política, encontra-se fora de seu país de origem e que, por causa dos ditos temores, não pode ou não quer regressar ao mesmo, ou devido a grave e generalizada violação de direitos humanos, é obrigado a deixar seu país de nacionalidade para buscar refúgio em outros países.
-Eles vêm pela própria via ou custo , barco, avião ou via terrestre.
+Refugiados são todas as pessoas que, em razão aos temores de perseguição devido à sua raça, religião, nacionalidade, associação a determinado grupo social ou opinião política, encontra-se fora de seu país de origem e que, por causa dos ditos temores, não pode ou não quer regressar ao mesmo, ou devido a grave e generalizada violação de direitos humanos, é obrigado a deixar seu país de origem para buscar refúgio em outros países.
+Eles vêm atraves de ajuda humanitaria ou por sua própria via e custo. De barco, avião ou via terrestre.
 
 # Quais são os objetivos do usuário em relação com o produto?
-O objetivo é através de uma mensagem segura e criptografada, ajudar um número de refugiados fazer  reclamações, solicitar um pedido de socorro ou de alguma ajuda. Somente usando um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.
+O objetivo é através de uma mensagem segura e criptografada, ajudar refugiados a fazerem um pedido de socorro ou mandar uma mensagem para seus familiares. Somente usando um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.
 
 
 ![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
@@ -22,16 +22,13 @@ Exemplos de mensagens que poderão ser criptografadas:
 * Denunciar sobre abusos sexuais; 
 *  Denúncias sobre algum tipo de preconceito;
 * Denúncias sobre trabalho escravo;
-* Facilitar com mais segurança o contato com sua família, amigos, de seu país de origem;
+* Ajudar no contato com sua família, amigos, de seu país de origem;
 * Ajuda a solucionar algum problema que houve ou que está ocorrendo de segurança no primeiro país ao qual chegam, ou que enfrentam insuperáveis impedimentos para a integração na nova sociedade;
 * A impossibilidade de obter documentação que lhes permita trabalhar;
 * A impossibilidade de obter acesso à educação para os filhos menores;
 * Qualquer outro tipo de ajuda que ele acredita que o aplicativo possa ajudar.
 
-
-![Refugiados1](index1.png)
-
-
+![refu1](https://www.politize.com.br/wp-content/uploads/2016/10/barco-de-refugiados-1.jpg)
 
 # Como você acredita que o produto está resolvendo os problemas do usuário?
 
